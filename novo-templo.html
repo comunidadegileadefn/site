@@ -11,19 +11,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header class="topbar">
   <div class="container nav">
-    <a class="logo" href="index.html">
-      <img src="assets/logo-gileade.png" alt="Comunidade Gileade">
-    </a>
-
+    <a class="logo" href="index.html"><img src="assets/logo-gileade.png" alt="Comunidade Gileade"></a>
     <button id="menuBtn" class="menu-btn" aria-label="Abrir menu">☰</button>
-
     <nav id="menu">
       <a href="index.html">Avisos da Semana</a>
       <a href="novo-templo.html" class="active">Novo Templo</a>
-
       <div class="settings">
         <button id="settingsBtn">⚙ Configurações</button>
         <div id="settingsMenu" class="settings-menu">
@@ -34,107 +28,56 @@
     </nav>
   </div>
 </header>
-
 <div class="gold-line"></div>
 
-<main class="templo">
+<main class="templo-page">
   <div class="container templo-grid">
-
-    <div class="projeto-imagem">
-      <img src="assets/novo-templo.png" alt="Projeto do novo templo da Comunidade Gileade">
-      <div class="imagem-frase">
-        Mais que uma igreja,<br>
-        <strong>uma família!</strong>
-        <span></span>
-      </div>
+    <div class="templo-image">
+      <img src="assets/novo-templo.jpg" alt="Projeto do novo templo da Comunidade Gileade">
+      <div class="image-script">Mais que uma igreja,<br><strong>uma família!</strong><i></i></div>
     </div>
 
-    <section class="conteudo">
+    <section class="templo-copy">
       <span class="kicker">NOSSO PROJETO</span>
+      <h1>Ajude-nos a<br>construir o<br>novo templo</h1>
 
-      <h1>
-        Ajude-nos a<br>
-        construir o<br>
-        novo templo
-      </h1>
-
-      <p>
-        Estamos em um grande projeto para a construção do nosso novo
-        templo. Um espaço para acolher mais pessoas, realizar projetos
-        sociais e expandir o Reino de Deus em nossa cidade.
-      </p>
-
-      <p>
-        Cada contribuição nos ajuda a avançar nesse sonho e preparar um
-        espaço para servir ainda mais famílias.
-      </p>
+      <p>Estamos em um grande projeto para a construção do nosso novo templo. Um espaço para acolher mais pessoas, realizar projetos sociais e expandir o Reino de Deus em nossa cidade.</p>
+      <p>Cada contribuição nos ajuda a avançar nesse sonho e preparar um espaço para servir ainda mais famílias.</p>
 
       <div class="pix-card">
         <h2>♥ Contribua via PIX</h2>
         <p>Qualquer valor faz a diferença!</p>
 
-        <div class="pix-content">
-          <div class="qr">
-            <img src="assets/qrcode-exemplo.png" alt="QR Code PIX de exemplo">
-          </div>
-
-          <div class="pix-message">
-            Escaneie o QR Code<br>
-            e faça parte desse<br>
-            grande propósito.
-          </div>
-
-          <div class="pix-hand">
-            Juntos<br>
-            construímos<br>
-            mais vidas!
-            <span></span>
-          </div>
+        <div class="pix-grid">
+          <img src="assets/qrcode-exemplo.png" alt="QR Code PIX de exemplo">
+          <div class="pix-text">Escaneie o QR Code<br>e faça parte desse<br>grande propósito.</div>
+          <div class="pix-script">Juntos<br>construímos<br>mais vidas!<i></i></div>
         </div>
       </div>
     </section>
-
   </div>
 </main>
 
-<footer id="rodape">
-  <div class="container footer-main">
-
-    <div class="footer-brand">
+<footer id="rodape" class="templo-footer">
+  <div class="container footer-3">
+    <div>
       <h3>Comunidade Gileade</h3>
       <p>Lugar de Cura e Restauração</p>
-
-      <div class="social">
-        <a href="https://www.instagram.com/comunidadegileade/" target="_blank" aria-label="Instagram">◎</a>
-        <a href="https://www.youtube.com/@ComunidadeGileade" target="_blank" aria-label="YouTube">▶</a>
-        <span class="social-placeholder" title="Facebook">f</span>
+      <div class="social-links">
+        <a href="https://www.instagram.com/comunidadegileade/" target="_blank">Instagram</a>
+        <a href="https://www.youtube.com/@ComunidadeGileade" target="_blank">YouTube</a>
       </div>
     </div>
-
-    <div class="footer-location">
-      <span class="pin">●</span>
-      <div>
-        <h3>Nossa sede</h3>
-        <p>
-          Rua Exemplo, 123<br>
-          Bairro Esperança<br>
-          Nossa Cidade - PE
-        </p>
-      </div>
+    <div>
+      <h3>Nossa sede</h3>
+      <p>Rua Exemplo, 123<br>Bairro Esperança<br>Nossa Cidade - PE</p>
     </div>
-
-    <div class="footer-message">
-      Mais que uma igreja,<br>
-      uma família!
-      <span></span>
-    </div>
-
+    <div class="footer-script">Mais que uma igreja,<br>uma família!<i></i></div>
   </div>
-
   <div class="footer-bottom">
-    <div class="container bottom-grid">
-      <p>© <span id="year"></span> Comunidade Gileade. Todos os direitos reservados.</p>
-      <p>Ele cura os de coração quebrantado e cuida das suas feridas. (Salmos 147:3)</p>
+    <div class="container">
+      <span>© <span id="year"></span> Comunidade Gileade. Todos os direitos reservados.</span>
+      <span>Ele cura os de coração quebrantado e cuida das suas feridas. (Salmos 147:3)</span>
     </div>
   </div>
 </footer>

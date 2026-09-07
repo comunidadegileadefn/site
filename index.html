@@ -1,65 +1,147 @@
-<!DOCTYPE html><html lang="pt-BR"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Avisos da Semana | Comunidade Gileade</title>
-<link rel="icon" href="assets/logo-gileade.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"></head><body><header class="topbar">
-<div class="container nav">
-  <a class="logo" href="index.html"><img src="assets/logo-gileade.png" alt="Comunidade Gileade"></a>
-  <button class="menu-btn" id="menuBtn">☰</button>
-  <nav id="menu">
-    <a href="index.html" class="active">Avisos da Semana</a>
-<a href="novo-templo.html">Novo Templo</a>
-    <div class="settings">
-      <button id="settingsBtn">⚙ Configurações</button>
-      <div class="settings-menu" id="settingsMenu">
-        <a href="mailto:contato@comunidadegileade.com?subject=Suporte%20do%20site">🎧 Suporte</a>
-        <a href="#sobre">ⓘ Sobre</a>
-        <a href="#privacidade">🛡 Privacidade</a>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avisos da Semana | Comunidade Gileade</title>
+  <link rel="icon" href="assets/logo-gileade.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="logo" href="index.html"><img src="assets/logo-gileade.png" alt="Comunidade Gileade"></a>
+    <button id="menuBtn" class="menu-btn" aria-label="Abrir menu">☰</button>
+    <nav id="menu">
+      <a href="index.html" class="active">Avisos da Semana</a>
+      <a href="novo-templo.html">Novo Templo</a>
+      <div class="settings">
+        <button id="settingsBtn">⚙ Configurações</button>
+        <div id="settingsMenu" class="settings-menu">
+          <a href="mailto:contato@comunidadegileade.com?subject=Suporte">🎧 Suporte</a>
+          <a href="#sobre">ⓘ Sobre</a>
+          <a href="#privacidade">🛡 Privacidade</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="home-hero">
+  <div class="container home-hero-grid">
+    <div>
+      <span class="kicker light">Comunidade</span>
+      <h1>Gileade</h1>
+      <h2>Lugar de Cura e Restauração</h2>
+      <blockquote>
+        “Ele cura os de coração quebrantado e cuida das suas feridas.”
+        <strong>Salmos 147:3</strong>
+      </blockquote>
+    </div>
+    <div class="hero-script">Mais que uma igreja,<br><strong>uma família!</strong></div>
+  </div>
+</section>
+
+<main class="avisos-page">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="kicker">📣 Informações</span>
+        <h2>Avisos da Semana</h2>
+        <p>Fique por dentro de tudo o que está acontecendo na nossa comunidade!</p>
+      </div>
+      <div class="week-card">
+        <span>📅 Semana de</span>
+        <strong>08 a 14 de setembro</strong>
       </div>
     </div>
-  </nav>
-</div>
-</header><main>
-<section class="hero">
-<div class="container hero-grid">
- <div><span class="eyebrow">Comunidade</span><h1>Gileade</h1><h2>Lugar de Cura e Restauração</h2>
- <blockquote>“Ele cura os de coração quebrantado e cuida das suas feridas.”<strong>Salmos 147:3</strong></blockquote></div>
- <div class="family">Mais que uma igreja,<br><strong>uma família!</strong></div>
-</div></section>
 
-<section class="section">
-<div class="container">
-<div class="section-title">
- <div><span class="eyebrow dark">📣 Informações</span><h2>Avisos da Semana</h2><p>Fique por dentro de tudo o que está acontecendo na nossa comunidade!</p></div>
- <div class="week">📅 Semana de<br><strong>08 a 14 de setembro</strong></div>
-</div>
+    <div class="notice-list">
+      <article class="notice-card">
+        <div class="notice-image n1">🙌</div>
+        <div class="notice-body">
+          <span class="tag blue">CULTO</span>
+          <h3>Culto da Família</h3>
+          <p>Neste domingo teremos nosso Culto da Família. Traga sua família e venha adorar conosco!</p>
+          <div class="meta"><span>📅 Domingo, 08 de setembro</span><span>🕒 19h</span><span>📍 Comunidade Gileade</span></div>
+        </div>
+      </article>
 
-<div class="notices">
-<article class="notice"><div class="pic p1">🙌</div><div><span class="tag">CULTO</span><h3>Culto da Família</h3><p>Neste domingo teremos nosso Culto da Família. Traga sua família e venha adorar conosco!</p><div class="meta">📅 Domingo, 08 de setembro　 🕒 19h　 📍 Comunidade Gileade</div></div></article>
-<article class="notice"><div class="pic p2">📖</div><div><span class="tag green">ESTUDO</span><h3>Estudo Bíblico</h3><p>Vamos nos aprofundar na Palavra de Deus. Participe e convide alguém!</p><div class="meta">📅 Quarta-feira, 11 de setembro　 🕒 19h30　 📍 Comunidade Gileade</div></div></article>
-<article class="notice"><div class="pic p3">🙏</div><div><span class="tag orange">ORAÇÃO</span><h3>Círculo de Oração</h3><p>Um tempo de clamor, intercessão e busca pela presença de Deus em nossa cidade.</p><div class="meta">📅 Sexta-feira, 13 de setembro　 🕒 19h　 📍 Comunidade Gileade</div></div></article>
-<article class="notice"><div class="pic p4">👥</div><div><span class="tag purple">JOVENS</span><h3>Encontro de Jovens</h3><p>Uma noite especial com louvor, palavra e comunhão. Traga um amigo!</p><div class="meta">📅 Sábado, 14 de setembro　 🕒 19h　 📍 Comunidade Gileade</div></div></article>
-</div>
-<div class="verse">“Porque onde estiverem dois ou três reunidos em meu nome, ali estou eu no meio deles.” <strong>Mateus 18:20</strong></div>
-</div></section></main><section class="about" id="sobre">
-<div class="container about-grid">
-  <div><h3>Comunidade Gileade</h3><p>Lugar de Cura e Restauração.</p></div>
-  <div><h3>Nossa sede</h3><p>Adicione aqui o endereço oficial da igreja.</p></div>
-  <div>
-    <h3>Redes sociais</h3>
-    <p><a href="https://www.youtube.com/@ComunidadeGileade" target="_blank">YouTube</a> ·
-    <a href="https://www.instagram.com/comunidadegileade/" target="_blank">Instagram</a></p>
+      <article class="notice-card">
+        <div class="notice-image n2">📖</div>
+        <div class="notice-body">
+          <span class="tag green">ESTUDO</span>
+          <h3>Estudo Bíblico</h3>
+          <p>Vamos nos aprofundar na Palavra de Deus. Participe e convide alguém!</p>
+          <div class="meta"><span>📅 Quarta-feira, 11 de setembro</span><span>🕒 19h30</span><span>📍 Comunidade Gileade</span></div>
+        </div>
+      </article>
+
+      <article class="notice-card">
+        <div class="notice-image n3">🙏</div>
+        <div class="notice-body">
+          <span class="tag orange">ORAÇÃO</span>
+          <h3>Círculo de Oração</h3>
+          <p>Um tempo de clamor, intercessão e busca pela presença de Deus em nossa cidade.</p>
+          <div class="meta"><span>📅 Sexta-feira, 13 de setembro</span><span>🕒 19h</span><span>📍 Comunidade Gileade</span></div>
+        </div>
+      </article>
+
+      <article class="notice-card">
+        <div class="notice-image n4">👥</div>
+        <div class="notice-body">
+          <span class="tag purple">JOVENS</span>
+          <h3>Encontro de Jovens</h3>
+          <p>Uma noite especial com louvor, palavra e comunhão. Traga um amigo!</p>
+          <div class="meta"><span>📅 Sábado, 14 de setembro</span><span>🕒 19h</span><span>📍 Comunidade Gileade</span></div>
+        </div>
+      </article>
+    </div>
+
+    <div class="verse-card">
+      <div>
+        <p>“Porque onde estiverem dois ou três reunidos em meu nome, ali estou eu no meio deles.”</p>
+        <strong>Mateus 18:20</strong>
+      </div>
+      <div class="verse-script">Venha fazer parte<br>dessa família!</div>
+    </div>
   </div>
-</div>
+</main>
+
+<section class="about" id="sobre">
+  <div class="container about-grid">
+    <div><h3>Comunidade Gileade</h3><p>Lugar de Cura e Restauração.</p></div>
+    <div><h3>Nossa sede</h3><p>Adicione aqui o endereço oficial da igreja.</p></div>
+    <div>
+      <h3>Redes sociais</h3>
+      <p>
+        <a href="https://www.youtube.com/@ComunidadeGileade" target="_blank">YouTube</a> ·
+        <a href="https://www.instagram.com/comunidadegileade/" target="_blank">Instagram</a>
+      </p>
+    </div>
+  </div>
 </section>
+
 <section class="privacy" id="privacidade">
-<div class="container"><h3>Privacidade</h3><p>Este site institucional não coleta dados pessoais automaticamente.</p></div>
+  <div class="container">
+    <h3>Privacidade</h3>
+    <p>Este site institucional não coleta dados pessoais automaticamente.</p>
+  </div>
 </section>
-<footer><div class="container footer">
-<img src="assets/logo-gileade.png" alt="Logo">
-<div><strong>Comunidade Gileade</strong><p>Lugar de Cura e Restauração</p></div>
-<span>© <span id="year"></span> Comunidade Gileade</span>
-</div></footer><script src="script.js"></script></body></html>
+
+<footer>
+  <div class="container footer-main">
+    <div class="footer-brand">
+      <img src="assets/logo-gileade.png" alt="Comunidade Gileade">
+      <div><strong>Comunidade Gileade</strong><span>Lugar de Cura e Restauração</span></div>
+    </div>
+    <span>© <span id="year"></span> Comunidade Gileade</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
