@@ -3,7 +3,7 @@
 html{scroll-behavior:smooth}
 body{font-family:Montserrat,Arial,sans-serif;color:var(--text);background:#fff;line-height:1.55}
 a{text-decoration:none;color:inherit}
-.site-container{width:min(1240px,90%);margin:0 auto}
+.site-container {width: calc(100% - 80px); max-width: 1450px; margin: 0 auto;}
 
 /* HEADER */
 .topbar{height:84px;background:#171d1b;position:sticky;top:0;z-index:100;color:#fff}
