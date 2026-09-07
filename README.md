@@ -1,25 +1,24 @@
-# Comunidade Gileade — GitHub Pages
+# Comunidade Gileade — versão atualizada
 
-Agora o site usa páginas separadas:
+Arquivos prontos para GitHub Pages.
 
-- `index.html` = Avisos da Semana (página inicial)
-- `novo-templo.html` = página do Novo Templo
-- Não existe mais botão “Início”.
-- Configurações contém Suporte, Sobre e Privacidade.
+## Alterações na aba Novo Templo
+- A cruz foi substituída pela imagem do projeto do novo templo.
+- O campo `SEU-PIX-AQUI` foi removido.
+- Agora há um QR Code visual de exemplo.
+- O QR Code atual NÃO representa uma chave PIX real.
+- Mantidas as páginas separadas:
+  - `index.html` — Avisos da Semana
+  - `novo-templo.html` — Novo Templo
 
-## Para atualizar no GitHub
-Envie/substitua:
+## Arquivos que devem ser enviados ao GitHub
 - index.html
 - novo-templo.html
 - style.css
 - script.js
 - assets/logo-gileade.png
+- assets/novo-templo.jpg
+- assets/qrcode-exemplo.png
 
-Ao clicar em **Novo Templo**, o navegador abre `novo-templo.html` em vez de rolar a página.
-
-## Edite antes
-Troque:
-- `SEU-PIX-AQUI`
-- `contato@comunidadegileade.com`
-- endereço da igreja
-- datas/horários dos avisos
+Para usar PIX de verdade no futuro, substitua `assets/qrcode-exemplo.png`
+pelo QR Code PIX oficial da igreja.
