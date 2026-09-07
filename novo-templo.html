@@ -1,14 +1,65 @@
-<nav id="menu">
+<!DOCTYPE html><html lang="pt-BR"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Novo Templo | Comunidade Gileade</title>
+<link rel="icon" href="assets/logo-gileade.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head><body><header class="topbar">
+<div class="container nav">
+  <a class="logo" href="index.html"><img src="assets/logo-gileade.png" alt="Comunidade Gileade"></a>
+  <button class="menu-btn" id="menuBtn">☰</button>
+  <nav id="menu">
     <a href="index.html">Avisos da Semana</a>
-    <a href="novo-templo.html" class="active">Novo Templo</a>
-
+<a href="novo-templo.html" class="active">Novo Templo</a>
     <div class="settings">
-        <button id="settingsBtn">⚙ Configurações</button>
-
-        <div id="settingsMenu" class="settings-menu">
-            <a href="mailto:SEUEMAIL@gmail.com">🎧 Suporte</a>
-            <a href="index.html#sobre">ⓘ Sobre</a>
-            <a href="index.html#privacidade">🛡 Privacidade</a>
-        </div>
+      <button id="settingsBtn">⚙ Configurações</button>
+      <div class="settings-menu" id="settingsMenu">
+        <a href="mailto:contato@comunidadegileade.com?subject=Suporte%20do%20site">🎧 Suporte</a>
+        <a href="#sobre">ⓘ Sobre</a>
+        <a href="#privacidade">🛡 Privacidade</a>
+      </div>
     </div>
-</nav>
+  </nav>
+</div>
+</header><main>
+<section class="temple-hero">
+<div class="container temple-hero-content">
+ <span class="eyebrow">Campanha</span><h1>Novo Templo</h1><h2>Um lugar maior para mais vidas!</h2>
+ <p>Juntos construímos mais vidas!</p>
+</div></section>
+
+<section class="temple-section">
+<div class="container temple-grid">
+ <div class="temple-art"><span>✝</span><strong>Mais que tijolos,<br>estamos construindo vidas!</strong></div>
+ <div class="temple-copy">
+   <span class="eyebrow dark">Nosso projeto</span>
+   <h2>Ajude-nos a construir o novo templo</h2>
+   <p>Estamos em um grande projeto para a construção do nosso novo templo. Um espaço para acolher mais pessoas, realizar projetos sociais e expandir o Reino de Deus em nossa cidade.</p>
+   <p>Cada contribuição nos ajuda a avançar nesse sonho e preparar um espaço para servir ainda mais famílias.</p>
+   <div class="pix">
+     <h3>❤ Contribua via PIX</h3>
+     <p>Qualquer valor faz a diferença!</p>
+     <div class="pix-row"><strong id="pixKey">SEU-PIX-AQUI</strong><button id="copyPix">Copiar chave PIX</button></div>
+     <small>Substitua “SEU-PIX-AQUI” pela chave PIX oficial da igreja.</small>
+   </div>
+ </div>
+</div></section></main><section class="about" id="sobre">
+<div class="container about-grid">
+  <div><h3>Comunidade Gileade</h3><p>Lugar de Cura e Restauração.</p></div>
+  <div><h3>Nossa sede</h3><p>Adicione aqui o endereço oficial da igreja.</p></div>
+  <div>
+    <h3>Redes sociais</h3>
+    <p><a href="https://www.youtube.com/@ComunidadeGileade" target="_blank">YouTube</a> ·
+    <a href="https://www.instagram.com/comunidadegileade/" target="_blank">Instagram</a></p>
+  </div>
+</div>
+</section>
+<section class="privacy" id="privacidade">
+<div class="container"><h3>Privacidade</h3><p>Este site institucional não coleta dados pessoais automaticamente.</p></div>
+</section>
+<footer><div class="container footer">
+<img src="assets/logo-gileade.png" alt="Logo">
+<div><strong>Comunidade Gileade</strong><p>Lugar de Cura e Restauração</p></div>
+<span>© <span id="year"></span> Comunidade Gileade</span>
+</div></footer><script src="script.js"></script></body></html>
