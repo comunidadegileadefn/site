@@ -1,26 +1,21 @@
-# Comunidade Gileade — formatação corrigida
+# Comunidade Gileade — versão final de formatação
 
-Esta versão corrige o problema em que a página de Avisos aparecia como texto simples.
+Alterações aplicadas:
+- container centralizado com largura máxima de 1400px;
+- página Novo Templo com proporções mais equilibradas;
+- imagem usando aspect-ratio 16:10;
+- título do Novo Templo reduzido para não dominar a tela;
+- QR Code menor e card PIX mais organizado;
+- rodapé mais equilibrado;
+- melhor responsividade em tablet e celular;
+- CSS carregado como `style.css?v=5` para evitar cache antigo.
 
-## O que fazer no GitHub
-Substitua TODOS estes arquivos:
+## Para atualizar no GitHub
+Substitua:
 - index.html
 - novo-templo.html
 - style.css
 - script.js
 - pasta assets/
 
-Não misture com versões anteriores.
-
-## Importante
-Os dois HTML usam:
-`style.css?v=3`
-
-O `?v=3` ajuda o navegador a não carregar um CSS antigo em cache.
-
-Depois de publicar:
-1. aguarde o GitHub Pages atualizar;
-2. abra o site;
-3. pressione Ctrl + F5.
-
-O QR Code continua sendo apenas visual/de exemplo.
+Depois aguarde o GitHub Pages atualizar e pressione Ctrl + F5.
