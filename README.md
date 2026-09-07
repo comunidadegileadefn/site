@@ -1,23 +1,26 @@
-# Comunidade Gileade — versão corrigida
+# Comunidade Gileade — formatação corrigida
 
-Esta versão corrige o problema mostrado nas capturas: as duas páginas agora usam o MESMO `style.css`, com os estilos de Avisos da Semana e Novo Templo no mesmo arquivo.
+Esta versão corrige o problema em que a página de Avisos aparecia como texto simples.
 
-## Estrutura
-- index.html — Avisos da Semana
-- novo-templo.html — Novo Templo
-- style.css — estilos das duas páginas
+## O que fazer no GitHub
+Substitua TODOS estes arquivos:
+- index.html
+- novo-templo.html
+- style.css
 - script.js
-- assets/
-  - logo-gileade.png
-  - novo-templo.jpg
-  - qrcode-exemplo.png
+- pasta assets/
 
-## No GitHub
-A forma mais segura é substituir TODOS os arquivos do site por estes, sem misturar com versões anteriores.
+Não misture com versões anteriores.
 
-Depois:
-1. Aguarde o GitHub Pages publicar.
-2. Abra o site.
-3. Pressione Ctrl + F5 para limpar o cache.
+## Importante
+Os dois HTML usam:
+`style.css?v=3`
 
-Importante: o QR Code é apenas visual. Substitua `assets/qrcode-exemplo.png` pelo QR Code PIX oficial quando tiver.
+O `?v=3` ajuda o navegador a não carregar um CSS antigo em cache.
+
+Depois de publicar:
+1. aguarde o GitHub Pages atualizar;
+2. abra o site;
+3. pressione Ctrl + F5.
+
+O QR Code continua sendo apenas visual/de exemplo.

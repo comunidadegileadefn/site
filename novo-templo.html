@@ -8,37 +8,43 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
+
 <header class="topbar">
-  <div class="container nav">
-    <a class="logo" href="index.html"><img src="assets/logo-gileade.png" alt="Comunidade Gileade"></a>
+  <div class="site-container nav">
+    <a class="logo" href="index.html">
+      <img src="assets/logo-gileade.png" alt="Comunidade Gileade">
+    </a>
+
     <button id="menuBtn" class="menu-btn" aria-label="Abrir menu">☰</button>
+
     <nav id="menu">
-      <a href="index.html">Avisos da Semana</a>
-      <a href="novo-templo.html" class="active">Novo Templo</a>
+      <a href="index.html">Avisos da Semana</a><a href="novo-templo.html" class="active">Novo Templo</a>
       <div class="settings">
         <button id="settingsBtn">⚙ Configurações</button>
         <div id="settingsMenu" class="settings-menu">
           <a href="mailto:contato@comunidadegileade.com?subject=Suporte">🎧 Suporte</a>
-          <a href="#rodape">ⓘ Sobre</a>
+          <a href="#sobre">ⓘ Sobre</a>
+          <a href="#privacidade">🛡 Privacidade</a>
         </div>
       </div>
     </nav>
   </div>
 </header>
+
 <div class="gold-line"></div>
 
 <main class="templo-page">
-  <div class="container templo-grid">
+  <div class="site-container templo-grid">
     <div class="templo-image">
       <img src="assets/novo-templo.jpg" alt="Projeto do novo templo da Comunidade Gileade">
       <div class="image-script">Mais que uma igreja,<br><strong>uma família!</strong><i></i></div>
     </div>
 
     <section class="templo-copy">
-      <span class="kicker">NOSSO PROJETO</span>
+      <span class="section-kicker">NOSSO PROJETO</span>
       <h1>Ajude-nos a<br>construir o<br>novo templo</h1>
 
       <p>Estamos em um grande projeto para a construção do nosso novo templo. Um espaço para acolher mais pessoas, realizar projetos sociais e expandir o Reino de Deus em nossa cidade.</p>
@@ -59,7 +65,7 @@
 </main>
 
 <footer id="rodape" class="templo-footer">
-  <div class="container footer-3">
+  <div class="site-container footer-3">
     <div>
       <h3>Comunidade Gileade</h3>
       <p>Lugar de Cura e Restauração</p>
@@ -74,8 +80,9 @@
     </div>
     <div class="footer-script">Mais que uma igreja,<br>uma família!<i></i></div>
   </div>
+
   <div class="footer-bottom">
-    <div class="container">
+    <div class="site-container">
       <span>© <span id="year"></span> Comunidade Gileade. Todos os direitos reservados.</span>
       <span>Ele cura os de coração quebrantado e cuida das suas feridas. (Salmos 147:3)</span>
     </div>
